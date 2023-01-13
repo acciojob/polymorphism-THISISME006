@@ -6,19 +6,19 @@ public class Main {
         p.product(10,20,30);
         p.product(10.05,20.50);
     }
-    public static class Product{
-        public int product(int x, int y) {
+}
+class Product{
+    public int product(int x, int y) {
 
-            return x;
-        }
-        public int product(int x, int y, int z) {
+        return x;
+    }
+    public int product(int x, int y, int z) {
 
-            return x;
-        }
-        public double product(double x, double y) {
+        return x;
+    }
+    public double product(double x, double y) {
 
-            return x;
-        }
+        return x;
     }
 }
 
