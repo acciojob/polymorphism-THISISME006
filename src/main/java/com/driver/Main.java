@@ -1,18 +1,10 @@
 package com.driver;
-
-import java.util.*;
 public class Main {
     public static void main(String[] args){
         Product p = new Product();
-        Scanner sc = new Scanner(System.in);
-        int x = sc.nextInt();
-        int y = sc.nextInt();
-        int z = sc.nextInt();
-        double x1 = sc.nextDouble();
-        double y1 = sc.nextDouble();
-        p.product(x,y);
-        p.product(x,y,z);
-        p.product(x1,y1);
+        p.product(10,20);
+        p.product(10,20,30);
+        p.product(10.05,20.50);
     }
     public static class Product{
         public int product(int x, int y) {
