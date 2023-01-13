@@ -1,5 +1,19 @@
 package com.driver;
 public class Main {
+    public static class Product{
+        public int product(int x, int y) {
+
+            return x+y;
+        }
+        public int product(int x, int y, int z) {
+
+            return x+y+z;
+        }
+        public double product(double x, double y) {
+
+            return x+y;
+        }
+    }
     public static void main(String[] args){
         Product p = new Product();
         p.product(10,20);
@@ -7,18 +21,5 @@ public class Main {
         p.product(10.05,20.50);
     }
 }
-class Product{
-    public int product(int x, int y) {
 
-        return x;
-    }
-    public int product(int x, int y, int z) {
-
-        return x;
-    }
-    public double product(double x, double y) {
-
-        return x;
-    }
-}
 
