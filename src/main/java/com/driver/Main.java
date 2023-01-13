@@ -14,18 +14,18 @@ public class Main {
         p.product(x,y,z);
         p.product(x1,y1);
     }
-}
-class Product{
-    public int product(int x, int y) {
+    public static class Product{
+        public int product(int x, int y) {
 
-        return x;
-    }
-    public int product(int x, int y, int z) {
+            return x;
+        }
+        public int product(int x, int y, int z) {
 
-        return x;
-    }
-    public double product(double x, double y) {
+            return x;
+        }
+        public double product(double x, double y) {
 
-        return x;
+            return x;
+        }
     }
 }
